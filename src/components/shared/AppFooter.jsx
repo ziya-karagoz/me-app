@@ -8,31 +8,19 @@ import {
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
-	{
-		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
-	},
+	
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/ziya-karagoz',
 	},
-	{
-		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
-	},
+	
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/ziya-karagoz-77a8a71b4/',
 	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
-	},
+	
 ];
 
 const AppFooter = () => {
@@ -50,7 +38,7 @@ const AppFooter = () => {
 								href={link.url}
 								target="__blank"
 								key={link.id}
-								className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+								className="text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
 							>
 								<i className="text-xl sm:text-2xl md:text-3xl">
 									{link.icon}

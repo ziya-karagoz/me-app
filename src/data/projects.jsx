@@ -1,5 +1,5 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
+import WebImage1 from '../images/voilacard-pro.jpg';
 import WebImage2 from '../images/web-project-2.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';

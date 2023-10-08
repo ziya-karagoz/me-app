@@ -131,7 +131,7 @@ const AppHeader = () => {
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<span
 							onClick={showHireMeModal}
-							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
+							className="font-general-medium sm:hidden block text-left text-md bg-yellow-500 hover:bg-yellow-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
 							aria-label="Hire Me Button"
 						>
 							<Button title="Hire Me" />
@@ -169,7 +169,7 @@ const AppHeader = () => {
 					<div className="hidden md:flex">
 						<span
 							onClick={showHireMeModal}
-							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+							className="text-md font-general-medium bg-yellow-500 hover:bg-yellow-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
 							<Button title="Hire Me" />
