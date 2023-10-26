@@ -14,6 +14,7 @@ const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
+
 function App() {
 	return (
 		<AnimatePresence>
@@ -26,7 +27,7 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
-								path="projects/single-project"
+								path="projects/:path"
 								element={<ProjectSingle />}
 							/>
 

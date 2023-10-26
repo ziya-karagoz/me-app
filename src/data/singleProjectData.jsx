@@ -16,9 +16,9 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
+		title: 'Voila Card',
 		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		tags: 'Frontend, Backend',
 	},
 	ProjectImages: [
 		{
