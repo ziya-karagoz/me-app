@@ -1,5 +1,5 @@
 import { AnimatePresence } from 'framer-motion';
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop"
 import AppFooter from './components/shared/AppFooter';
@@ -17,6 +17,8 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
 function App() {
+	const [theme, setTheme] = useState(localStorage.theme);
+
 	return (
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
@@ -40,7 +42,15 @@ function App() {
 				</Router>
 				<UseScrollToTop />
 			</div>
-			<Toaster/>
+			<Toaster toastOptions={
+				{
+					style: {
+						borderRadius: '10px',
+						backgroundColor: theme === 'dark' ? "#333333" : "#ffffff",
+						color: theme === 'dark' ? "#ffffff" : "#333333",
+					},
+				}
+			}/>
 		</AnimatePresence>
 	);
 }
