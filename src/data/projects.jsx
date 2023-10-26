@@ -13,7 +13,7 @@ export const projectsData = [
 		id: 1,
 		title: 'Voila Card',
 		pathName: "voila-card",
-		category: 'Web Application - Ecommerce',
+		category: 'Web Application - Mobile Applicaton',
 		img: VoilaCard,
 		ProjectHeader: {
 			title: 'Voila Card',

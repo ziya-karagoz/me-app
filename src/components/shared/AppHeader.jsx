@@ -167,13 +167,12 @@ const AppHeader = () => {
 				{/* Header right section buttons */}
 				<div className="hidden sm:flex justify-between items-center flex-col md:flex-row">
 					<div className="hidden md:flex">
-						<span
-							onClick={showHireMeModal}
+						<Link to="/contact"
 							className="text-md font-general-medium bg-yellow-500 hover:bg-yellow-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
 							<Button title="Hire Me" />
-						</span>
+						</Link>
 					</div>
 
 					{/* Theme switcher large screen */}
