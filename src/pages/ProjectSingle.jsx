@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 const ProjectSingle = () => {
 	const {path} = useParams();
-	console.log(path)
+	
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
