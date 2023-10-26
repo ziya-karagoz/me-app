@@ -6,6 +6,7 @@ import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
+import { Toaster } from 'react-hot-toast';
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
@@ -39,6 +40,7 @@ function App() {
 				</Router>
 				<UseScrollToTop />
 			</div>
+			<Toaster/>
 		</AnimatePresence>
 	);
 }
